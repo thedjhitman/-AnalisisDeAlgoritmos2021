@@ -14,14 +14,14 @@ void principal(){
     for (int x = 0; x < longitud; x++) {
         printf("%d ", arreglo[x]);
         }
-    printf("\n");
+    printf("\n\n");
 
     burbuja(arreglo,longitud);
     printf("Imprimiendo arreglo despues de ordenar...\n");
     for (int x = 0; x < longitud; x++){
         printf("%d ", arreglo[x]);
     }
-    
+    printf("\n\n");
 }
 
 void burbuja(int arreglo[], int longitud){
@@ -35,5 +35,5 @@ void burbuja(int arreglo[], int longitud){
             }
         }
     }
-    
+
 }
